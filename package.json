@@ -1,0 +1,16 @@
+{
+  "name": "interactingwithstakingsc",
+  "version": "1.0.0",
+  "description": "Interacting with staked SFTs",
+  "main": "app.js",
+  "dependencies": {
+    "@multiversx/sdk-core": "^12.2.0",
+    "@multiversx/sdk-network-providers": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexei",
+  "license": "ISC"
+}
