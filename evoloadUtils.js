@@ -16,7 +16,7 @@ let abiRegistry;
 let existingContractAddress;
 let existingContract;
 
-//this functiin will initialize contract setup, and return true when is ready
+//this functiin will initialize contract setup,and return true when is ready
 async function init() {
   return new Promise(async (resolve, reject) => {
     try {
