@@ -1,0 +1,11 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EsdtContractAddress = exports.MaxUint64AsBigNumber = void 0;
+const bignumber_js_1 = __importDefault(require("bignumber.js"));
+const primitives_1 = require("./primitives");
+exports.MaxUint64AsBigNumber = new bignumber_js_1.default("18446744073709551615");
+exports.EsdtContractAddress = new primitives_1.Address("erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqzllls8a5w6u");
+//# sourceMappingURL=constants.js.map
