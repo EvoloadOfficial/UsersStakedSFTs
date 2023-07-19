@@ -73,14 +73,9 @@ async function main() {
     format.stakedEvld = await getUserTotalStakedEVLD(Address.fromHex(address));
     format.sfts = getSfts;
     HexAddressWithTotalStaked.push(format);
-
-    // HexAddressWithTotalStaked.forEach((addr) => {
-    //   console.log(`${JSON.stringify(addr)}`);
-    // });
-    //console.log(HexAddressWithTotalStaked);
   }
 
-  writeFileSync(".output.txt", JSON.stringify(HexAddressWithTotalStaked));
+  writeFileSync("output.txt", JSON.stringify(HexAddressWithTotalStaked));
 }
 
 main();

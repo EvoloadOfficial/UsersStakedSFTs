@@ -1,5 +1,5 @@
 const { writeFileSync, readFileSync } = require("fs");
-const data = JSON.parse(readFileSync("reformat.txt"));
+const data = JSON.parse(readFileSync("output.txt"));
 const {
   AbiRegistry,
   Address,
