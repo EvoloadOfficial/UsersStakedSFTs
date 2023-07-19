@@ -1,0 +1,22 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Utils for evoload",
+  "main": "convertSFTandEVLDToCSV.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "getCSV": "node getStakedEvldSft && npm run getCSV"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvoloadOfficial/UsersStakedSFTs.git"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvoloadOfficial/UsersStakedSFTs/issues"
+  },
+  "homepage": "https://github.com/EvoloadOfficial/UsersStakedSFTs#readme"
+}

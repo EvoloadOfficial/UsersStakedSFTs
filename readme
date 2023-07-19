@@ -1,0 +1,7 @@
+In order to get a CSV format you have tot run 2 scripts:
+
+1. run getStakedEvldSft.js script to get all the chain data with command: "node getStakedEvldSft"
+2. format the data from json to csv with command "node convertSFTandEVLDToCSV"
+
+#There's a script with does the steps listed above, you can run it by executing "npm run getCSV"
+get the csv file generated.
