@@ -7,7 +7,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "getCSV": "node getStakedEvldSft && npm run getCSV"
+    "getCSV": "node getStakedEvldSft && node convertSFTandEVLDToCSV"
   },
   "repository": {
     "type": "git",
